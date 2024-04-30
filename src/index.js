@@ -8,10 +8,10 @@ let windElement = document.querySelector("#wind-speed");
 let timeElement = document.querySelector("#time");
 let timestamp = response.data.time;
 let now = new Date(timestamp * 1000);
-
-    cityElement.innerHTML = response.data.city;
-
-
+let iconElement = document.querySelector("#icon");
+iconElement.innerHTML =`<img src="${response.data.condition.icon_url}" class="weather-app-icon"/>`
+              
+cityElement.innerHTML = response.data.city;
 timeElement.innerHTML= formatDate(now);
     temperatureElement.innerHTML = Math.round(temperature);
     weatherElement.innerHTML = response.data.condition.description;
