@@ -77,6 +77,23 @@ padding: 7px;
 strong{
     color: #D84797;
 }
+
+.weather-forecast{
+margin: 20px 0 20px 0;
+
+}
+
+.weather-forecast-date{
+    font-size: 16px;
+    
+}
+.weather-forecast-temperature{
+    font-size: 13px;
+}
+.weather-forecast-temp-min{
+color: rgba(184, 184, 184)
+}
+
 footer {
     border-top: 1px rgba(184, 184, 184, 0.6) solid;
     padding: 30px 0 0 0;
