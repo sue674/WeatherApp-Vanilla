@@ -94,6 +94,9 @@ margin: 0 auto;
 .weather-forecast-temperature{
     font-size: 13px;
 }
+.weather-forecast-icon{
+    width: 50px;
+}
 .weather-forecast-temp-min{
 color: rgba(184, 184, 184)
 }
